@@ -1,0 +1,83 @@
+.bgImage{
+    height:6.666667rem;
+}
+.tabNav{
+    height:1.573333rem;
+   
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+.tabNav>.navItem{position: relative;flex:1;border-right:1px solid #cccccc;font-size: 15px;color:#999999;height:100%}
+.tabNav>.navItem0{position: relative;width:30%;border-right:1px solid #cccccc;font-size: 15px;color:#999999;height:100%}
+.navItem1{
+	width:40% !important;
+}
+.tabNav>.navItem>li{width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;}
+.tabNav>.navItem>.on{color:#343434;}
+.tabNav>.navItem>.on::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    -webkit-transform:  translateX(-50%);
+    bottom:0;
+    width:20px;
+    margin:0 auto;;
+    height:.08rem;
+    background-color:  #1f9afd;
+}
+.tabNav>.navItem0>li{width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;}
+.tabNav>.navItem0>.on{color:#343434;}
+.tabNav>.navItem0>.on::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    bottom:0;
+    width:20px;
+    margin:0 auto;;
+    height:.08rem;
+    background-color: #1f9afd;
+}
+.importantEvent{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    color:#666666;
+    margin-bottom:.693333rem;
+    line-height: .693333rem;
+}
+.importantEvent>.eventTime_left{
+    flex:1;
+    text-align:center;
+}
+.importantEvent>.eventTime_right{
+   width:7.52rem;
+}
+.bd table {
+	margin-top:15px;
+}
+.bd table tr td {
+	color: #666666;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	border:1px solid #666666;
+	text-indent:0;
+	line-height:1.5;
+}
+.bd table tr td:first-child {
+	width: 100px;
+	text-align:center;
+}
+.bd table tr td:last-child {
+	padding: 10px;
+}

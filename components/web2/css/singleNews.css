@@ -1,0 +1,30 @@
+.content{
+    padding:0 .266667rem
+}
+.content>.singletitle{
+    padding-top:.666667rem;
+    font-size: 20px;
+    line-height: .8rem;
+    color:#000000;
+}
+.content>.singletitle>.data{
+    font-size: .373333rem;
+    color:#999999;
+    margin-top: .533333rem;
+    margin-bottom: .666667rem;
+}
+.content>.pic{
+    margin-bottom: .666667rem;
+}
+.footer{
+  
+}
+.content>.text{
+  font-size: 15px;
+  color:#666666;
+  line-height: 32px;
+  text-align:justify;
+  text-justify:inter-ideograph;
+  margin-bottom:20px;
+  text-indent:30px;
+}

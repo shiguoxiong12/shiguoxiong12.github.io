@@ -1,0 +1,47 @@
+.productDesc{
+    padding:.933333rem .32rem 1.14667rem .32rem;
+}
+.productDesc>.productVideo{
+    width:9.333333rem;
+    height:5.653333rem;
+    position:relative;
+}
+#video{
+	position: absolute;
+    left: 0;
+    top: 0; 
+}
+.productDesc>.productText{
+    margin-top:.933333rem;
+    text-indent: 30px;
+    font-size: 16px;
+    line-height:.906667rem;
+    color:#666666;
+	text-align:justify;
+	text-justify:inter-ideograph;
+}
+.System{
+		padding:0 1.44rem .8rem 1.44rem;
+}
+.System>.SystemRound{
+	
+   
+	position:relative;
+}
+.System>.SystemRound .round{
+	height:1.04rem;
+    line-height:1.04rem;
+	text-align:center;
+	font-size:16px;
+	border:1px solid #5bdeaf;
+	border-radius:20px;
+	margin-bottom:.586667rem;
+	color:#666666;
+}
+
+.System>.SystemRound>a{
+	color:#000000 !important;
+}
+.productImg{
+	height:11.706667rem;
+}
